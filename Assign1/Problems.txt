@@ -1,0 +1,23 @@
+glew2.1에서 lib
+bin 에있는dll파일 옮긴후에 cmake
+-> 새파일에서는 불필요
+
+Element buffer binding is part of the vertex array state.
+When you bind an element buffer while a vertex array is bound, the element buffer binding is stored into the vertex array state.
+
+vertexattribpointer 에서 두번째 size는 quad시 3이면 비정상적 4면 정상적
+아마 triangle이면 3이여야할듯
+제일 앞 0은 속성의 번호 보통 0에 coord 넣고 1에 색넣고 이런식
+attribarray도 동일속성은 동일하게
+
+index는 vertexattribpointer 필요없다함
+
+vertices color 모르겠음
+color적용안되는듯 모르겠음 이유를
+라이트만적용되는듯
+
+gldrawelements gl_unsigned_int 안쓰면 안나옴 int float 둘다
+
+glutPostRedisplay(); 이거써야 화면 바뀜
+
+
