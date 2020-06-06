@@ -1,6 +1,6 @@
 # Graphics
 
-## 학력
+## What I used
 
 - Opengl
 - glew, glut
