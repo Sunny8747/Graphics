@@ -11,6 +11,10 @@
 
 ### Triangle Mesh Viewer
 
+- Read .off file
+- render by buffer
+- keyboard interaction (View Change, polygone mode change)
+
 ```C++
 // read .off file
 // OFF
@@ -63,38 +67,55 @@ void renderScene(void){
 
 ### GLSL Shaders and Cartoon Shading
 
-```C++
+- Phong shading (Phong illumination, by using normal and distance between eye and object)
+- Sillhouette shading (Over lapping two object, by using glCullFace(GL_BACK and GL_FRONT))
+- Toon shading (Leveling by value of 'Lambert's cosine law')
 
+```C++
+//toon.frag
+// diffuse_level = dot(lightDir, normal) from toon.vert
+	if(toon_level == 3) {
+		if(diffuse_level > 0.98) {
+			gl_FragColor = specular;
+		}
+		else if(diffuse_level > level_scale) {
+			gl_FragColor = (1 - level_scale) * diffuse;
+		}
+		else {
+			gl_FragColor = pow(level_scale, 2) * diffuse;
+		}
+	}
 ```
 
-- Bunny Image
--
+- Keyboard interaction (Changing shader, toon level, diffuse and shiny parameter)
+
+- shading Images
 
 <hr>
 
 ## Assignment 3
 
-### AASDFASDF
+### 2D texture UV mapping, Mouse drag object rotating
 
-```C++
+- 2D static texture UV mapping
+- Mouse drag moves object like trackball
 
-```
+- Failed Environment mapping, object reflection_MAP
 
 - Bunny Image
--
 
 <hr>
 
 ## Assignment 4
 
-### ASDFASDF
+### Ray casting(Maximum Intensity Projection, Alpha blending for transparency)
 
-```C++
-
-```
+- Shader만 작업하였음 (I did only shader part)
+- ray-cube intersection point
+- MIP (Maximum Intensity Projection)
+- Alpha blending for transparency
+- Sampling rate can change in .frag
 
 - Bunny Image
--
 
 <hr>
-- [PintOS](https://web.stanford.edu/class/cs140/projects/pintos/pintos.html#SEC_Contents "go link")

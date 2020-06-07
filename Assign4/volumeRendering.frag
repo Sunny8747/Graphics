@@ -21,7 +21,13 @@ void main(){
 
 	// Perspective Projection
     vec3 rayDirection=normalize(virtualScreenCoord-eyePosition); 
-	int sampling_rate = 5000;		//sampling rate in MIP and alpha_comp
+
+
+	//sampling rate in MIP and alpha_comp
+	int sampling_rate = 5000;		
+
+	
+
 	int cnt=0;
 	vec3 endPoint[2]; // 0 : entry point, 1 : exit point
 
