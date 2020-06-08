@@ -15,6 +15,8 @@
 - render by buffer
 - keyboard interaction (View Change, polygone mode change)
 
+[See Detailed Code](https://github.com/Sunny8747/Graphics/blob/master/Assign1/main.cpp "go link")
+
 ```C++
 // read .off file
 // OFF
@@ -71,6 +73,8 @@ void renderScene(void){
 - Sillhouette shading (Over lapping two object, by using glCullFace(GL_BACK and GL_FRONT))
 - Toon shading (Leveling by value of 'Lambert's cosine law')
 
+[See Detailed Report and Code](https://github.com/Sunny8747/Graphics/tree/master/Assign2 "go link")
+
 ```C++
 //toon.frag
 // diffuse_level = dot(lightDir, normal) from toon.vert
@@ -100,8 +104,9 @@ void renderScene(void){
 
 - 2D static texture UV mapping
 - Mouse drag moves object like trackball
-
 - Failed Environment mapping, object reflection_MAP
+
+[See Detailed Report and Code](https://github.com/Sunny8747/Graphics/tree/master/Assign4 "go link")
 
 - <img src="https://github.com/Sunny8747/Graphics/blob/master/Assign3/2.GIF" width="30%" title="Texture mapping" alt="Texture mapping"></img>
 
