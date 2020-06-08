@@ -58,7 +58,7 @@ void renderScene(void){
 }
 ```
 
-- Bunny Image
+- <img src="https://github.com/Sunny8747/Graphics/blob/master/Assign1/bunny_20131329_%EC%8B%A0%EC%84%A0%EC%9A%B0.GIF" width="30%" title="px(픽셀) 크기 설정" alt="Bunny"></img>
 -
 
 <hr>
@@ -89,7 +89,8 @@ void renderScene(void){
 
 - Keyboard interaction (Changing shader, toon level, diffuse and shiny parameter)
 
-- shading Images
+- <img src="https://github.com/Sunny8747/Graphics/blob/master/Assign2/images/t-d.GIF" width="30%" title="px(픽셀) 크기 설정" alt="Phong Shading"></img>
+- <img src="https://github.com/Sunny8747/Graphics/blob/master/Assign2/images/t-c-level6.GIF" width="30%" title="px(픽셀) 크기 설정" alt="Toon Shading"></img>
 
 <hr>
 
@@ -102,7 +103,7 @@ void renderScene(void){
 
 - Failed Environment mapping, object reflection_MAP
 
-- Bunny Image
+- <img src="https://github.com/Sunny8747/Graphics/blob/master/Assign3/2.GIF" width="30%" title="px(픽셀) 크기 설정" alt="Texture mapping"></img>
 
 <hr>
 
@@ -116,6 +117,7 @@ void renderScene(void){
 - Alpha blending for transparency
 - Sampling rate can change in .frag
 
-- Bunny Image
+- <img src="https://github.com/Sunny8747/Graphics/blob/master/Assign4/MIP1.GIF" width="30%" title="px(픽셀) 크기 설정" alt="MIP"></img>
+- <img src="https://github.com/Sunny8747/Graphics/blob/master/Assign4/alpha2.GIF" width="30%" title="px(픽셀) 크기 설정" alt="Alpha blending"></img>
 
 <hr>
