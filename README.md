@@ -2,8 +2,8 @@
 
 ## What I used
 
-- Opengl
-- glew, glut
+-   Opengl
+-   glew, glut
 
 <hr>
 
@@ -11,9 +11,9 @@
 
 ### Triangle Mesh Viewer
 
-- Read .off file
-- render by buffer
-- keyboard interaction (View Change, polygone mode change)
+-   Read .off file
+-   render by buffer
+-   keyboard interaction (View Change, polygone mode change)
 
 [See Detailed Code](https://github.com/Sunny8747/Graphics/blob/master/Assign1/main.cpp "go link")
 
@@ -60,7 +60,7 @@ void renderScene(void){
 }
 ```
 
-- <img src="https://github.com/Sunny8747/Graphics/blob/master/Assign1/bunny_20131329_%EC%8B%A0%EC%84%A0%EC%9A%B0.GIF" width="30%" title="Bunny" alt="Bunny"></img>
+-   <img src="https://github.com/Sunny8747/Graphics/blob/master/Assign1/bunny_20131329_%EC%8B%A0%EC%84%A0%EC%9A%B0.GIF" width="30%" title="Bunny" alt="Bunny"></img>
 -
 
 <hr>
@@ -69,9 +69,9 @@ void renderScene(void){
 
 ### GLSL Shaders and Cartoon Shading
 
-- Phong shading (Phong illumination, by using normal and distance between eye and object)
-- Sillhouette shading (Over lapping two object, by using glCullFace(GL_BACK and GL_FRONT))
-- Toon shading (Leveling by value of 'Lambert's cosine law')
+-   Phong shading (Phong illumination, by using normal and distance between eye and object)
+-   Sillhouette shading (Over lapping two object, by using glCullFace(GL_BACK and GL_FRONT))
+-   Toon shading (Leveling by value of 'Lambert's cosine law')
 
 [See Detailed Report and Code](https://github.com/Sunny8747/Graphics/tree/master/Assign2 "go link")
 
@@ -91,10 +91,10 @@ void renderScene(void){
 	}
 ```
 
-- Keyboard interaction (Changing shader, toon level, diffuse and shiny parameter)
+-   Keyboard interaction (Changing shader, toon level, diffuse and shiny parameter)
 
-- <img src="https://github.com/Sunny8747/Graphics/blob/master/Assign2/images/t-d.GIF" width="30%" title="Phong Shading" alt="Phong Shading"></img>
-- <img src="https://github.com/Sunny8747/Graphics/blob/master/Assign2/images/t-c-level6.GIF" width="30%" title="Toon Shading" alt="Toon Shading"></img>
+-   <img src="https://github.com/Sunny8747/Graphics/blob/master/Assign2/images/t-d.GIF" width="30%" title="Phong Shading" alt="Phong Shading"></img>
+-   <img src="https://github.com/Sunny8747/Graphics/blob/master/Assign2/images/t-c-level6.GIF" width="30%" title="Toon Shading" alt="Toon Shading"></img>
 
 <hr>
 
@@ -102,13 +102,13 @@ void renderScene(void){
 
 ### 2D texture UV mapping, Mouse drag object rotating
 
-- 2D static texture UV mapping
-- Mouse drag moves object like trackball
-- Failed Environment mapping, object reflection_MAP
+-   2D static texture UV mapping
+-   Mouse drag moves object like trackball
+-   Failed Environment mapping, object reflection_MAP
 
 [See Detailed Report and Code](https://github.com/Sunny8747/Graphics/tree/master/Assign4 "go link")
 
-- <img src="https://github.com/Sunny8747/Graphics/blob/master/Assign3/2.GIF" width="30%" title="Texture mapping" alt="Texture mapping"></img>
+-   <img src="https://github.com/Sunny8747/Graphics/blob/master/Assign3/2.GIF" width="30%" title="Texture mapping" alt="Texture mapping"></img>
 
 <hr>
 
@@ -116,13 +116,13 @@ void renderScene(void){
 
 ### Ray casting(Maximum Intensity Projection, Alpha blending for transparency)
 
-- Shader만 작업하였음 (I did only shader part)
-- ray-cube intersection point
-- MIP (Maximum Intensity Projection)
-- Alpha blending for transparency
-- Sampling rate can change in .frag
+-   Shader 부분만 직접 작업하였습니다.
+-   ray-cube intersection point
+-   MIP (Maximum Intensity Projection)
+-   Alpha blending for transparency
+-   Sampling rate can change in .frag
 
-- <img src="https://github.com/Sunny8747/Graphics/blob/master/Assign4/MIP1.GIF" width="30%" title="MIP" alt="MIP"></img>
-- <img src="https://github.com/Sunny8747/Graphics/blob/master/Assign4/alpha2.GIF" width="30%" title="Alpha blending" alt="Alpha blending"></img>
+-   <img src="https://github.com/Sunny8747/Graphics/blob/master/Assign4/MIP1.GIF" width="30%" title="MIP" alt="MIP"></img>
+-   <img src="https://github.com/Sunny8747/Graphics/blob/master/Assign4/alpha2.GIF" width="30%" title="Alpha blending" alt="Alpha blending"></img>
 
 <hr>
