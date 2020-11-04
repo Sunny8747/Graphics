@@ -104,7 +104,6 @@ void renderScene(void){
 
 -   2D static texture UV mapping
 -   Mouse drag moves object like trackball
--   Failed Environment mapping, object reflection_MAP
 
 -   <img src="https://github.com/Sunny8747/Graphics/blob/master/Assign3/2.GIF" width="30%" title="Texture mapping" alt="Texture mapping"></img>
 
@@ -123,6 +122,6 @@ void renderScene(void){
 [See Detailed Report and Code](https://github.com/Sunny8747/Graphics/tree/master/Assign4 "go link")
 
 -   <img src="https://github.com/Sunny8747/Graphics/blob/master/Assign4/MIP1.GIF" width="30%" title="MIP" alt="MIP"></img>
--   <img src="https://github.com/Sunny8747/Graphics/blob/master/Assign4/alpha2.GIF" width="30%" title="Alpha blending" alt="Alpha blending"></img>
+-   <img src="https://github.com/Sunny8747/Graphics/blob/master/Assign4/alpha2.jpg" width="30%" title="Alpha blending" alt="Alpha blending"></img>
 
 <hr>
